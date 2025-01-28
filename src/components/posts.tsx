@@ -1,9 +1,9 @@
+import { getPosts } from "@/actions/get-posts";
 import { Post } from "@/types/Posts";
 
 export const Posts = async () => {
 
-    const res = await fetch (`https://jsonplaceholder.typicode.com/posts`);
-    const posts: Post[] = await res.json();
+    const posts = await getPosts();
 
     return (
         <ul>
