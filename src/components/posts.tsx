@@ -1,5 +1,4 @@
 import { getPosts } from "@/actions/get-posts";
-import { Post } from "@/types/Posts";
 
 export const Posts = async () => {
 

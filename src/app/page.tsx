@@ -12,7 +12,7 @@ const Page = () => {
         <div>
             <h1>Pagina inicial</h1>
 
-           <Form />
+           <Posts />
 
             <Link href={"/tela1"}>Ir para tela 1</Link>
         </div>
